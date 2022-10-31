@@ -10,9 +10,9 @@ spring:
   main:
     allow-circular-references: true
   redis:
-    host: 101.33.210.186
-    port: 6324
-    password: 123456
+    host: #
+    port: #
+    password: #
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
