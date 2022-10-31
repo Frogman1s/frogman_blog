@@ -1,0 +1,4 @@
+# Project exclude paths
+/frogamn_blog_2022/blog_admin/target/
+/frogamn_blog_2022/blog_common/target/
+/frogamn_blog_2022/blog_main/target/
