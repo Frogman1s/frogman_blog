@@ -2,7 +2,7 @@ server:
   port: 8001
 spring:
   datasource:
-    url: jdbc:mysql://101.33.210.186:3306/frogman_blog?serverTimezone=GMT%2B8&characterEncoding=UTF-8
+    url: #
     driver-class-name: com.mysql.jdbc.Driver
   servlet:
     multipart:
@@ -10,9 +10,9 @@ spring:
   main:
     allow-circular-references: true
   redis:
-    host: 101.33.210.186
-    port: 6324
-    password: 123456
+    host: #
+    port: #
+    password: #
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
@@ -29,10 +29,10 @@ mybatis-plus:
       id-type: auto
 files:
   upload:
-    path: /Users/allenshen/Desktop/workSpace/FilesStore/
+    path: #
 
 oss:
-  accessKey: rmtUUKSy2lNteTMxwCcoi-dApWyQFxgs3H-nWyMa
-  secretKey: 8aE4C9fxnJwPeLaVLHq1OJsQQxUSTtK8Re-7Aq5B
-  bucket: frogmanblog
-  urlPrefix: http://rkb5txjtr.hn-bkt.clouddn.com/
+  accessKey: #
+  secretKey: #
+  bucket: #
+  urlPrefix: #
